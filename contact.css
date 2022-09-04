@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    align-items: center;
+    padding: 7px;
+    background-color: #2C373D;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 33px;
+}
+
+.left img {
+    margin: 0 10px;
+    width: 149px;
+    height: 44px;
+}
+
+.right {
+    margin: 0 10px;
+    border: 2px solid green;
+}
+
+ul {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul li {
+    font-weight: bold;
+    list-style-type: none;
+    color: #FFFFFF;
+}
+
+ul li:hover {
+    list-style-type: none;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 5px #FE8078;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+.contactForm{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    padding: 13px ;
+    border-radius: 30px;
+    background-color: #2C373D;
+    margin: 15vh auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px solid #2C373D;
+    height: 57vh;
+    width: 50vw;
+}
+
+form{
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+form input{
+    font-weight: 3px;
+    padding: 3px;
+    font-family: 'Inconsolata', monospace;
+    margin: 2px 0;
+}
+
+.contactForm h1{
+    letter-spacing: 3px;
+    font-style: italic;
+    color: #FE8078 ;
+    margin: 10px 0;
+}
+
+.form-control{
+    border-radius: 15px;
+    width: 23vw;
+    height: 18px;
+    border-color: #2C373D;
+}
+
+#emailHelp{
+    margin-top: 4px;
+    font-size: 13px;
+    color: rgb(230 193 193);
+}
+
+.btn {
+    margin-left: 7px;
+    padding: 3px;
+    color: #2C373D;
+    border-radius: 33px;
+    height: 25px;
+    width: 10vw;
+    border: 1px solid #EE403E;
+    background-color: #EE403E;
+}
+
+.btn:hover {
+    color: white;
+    border-radius: 33px;
+    height: 25px;
+    width: 10vw;
+    background-color: #933547;
+    border:1px solid  #933547;
+}

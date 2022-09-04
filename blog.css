@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    align-items: center;
+    padding: 7px;
+    background-color: #2C373D;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 33px;
+}
+
+.left img {
+    margin: 0 10px;
+    width: 149px;
+    height: 44px;
+}
+
+.right {
+    margin: 0 10px;
+    border: 2px solid green;
+}
+
+ul {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul li {
+    font-weight: bold;
+    list-style-type: none;
+    color: #FFFFFF;
+}
+
+ul li:hover {
+    list-style-type: none;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 5px #FE8078;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+.container{
+    /* border: 2px solid rgb(122, 122, 97); */
+    width: 70vw;
+    margin: 5vh auto;
+    height: 80vh;
+    justify-content: space-evenly;
+    flex-direction: column ;
+    display: flex;
+}
+
+.cards{
+    border-radius: 23px;
+    background-color: #2C373D;
+    display: flex;
+    margin: auto;
+    height: 20vh;
+    width: 60vw;
+    /* border: 2px solid rgb(52, 49, 49); */
+}
+
+.content{
+    padding: 10px;
+    width: 51.6vw;
+}
+
+.image img{ 
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+    width: 11vw;
+    height: 20vh;
+}
+
+.imageButLeft img{ 
+    border-top-left-radius: 21px;
+    border-bottom-left-radius: 21px;
+    width: 11vw;
+    height: 20vh;
+}
+
+.content h2{
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-family: 'Oswald', sans-serif;
+    color: #FE8078;
+}
+
+.content h2 span{
+    font-size: 31px;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    letter-spacing: 6px;
+}
+
+.content p{
+    margin: 1vh 0;
+    color: white;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.content p a{
+    text-decoration: none;
+    margin: 1vh 0;
+    color: #FE8078;
+    font-family: 'Tajawal', sans-serif;
+}
